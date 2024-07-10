@@ -1,0 +1,19 @@
+DELETE http://localhost:3001/api/persons/1
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Duyen nguyen",
+  "number": "012-345142"
+}
+
+###
+GET http://localhost:3001/api/persons/
+
+###
+GET http://localhost:3001/api/persons/6684eeaf4b7fa546f11a25f8
+
+###
+GET http://localhost:3001/info

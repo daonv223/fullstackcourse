@@ -1,0 +1,13 @@
+###
+GET http://localhost:3003/api/blogs/
+
+###
+POST http://localhost:3003/api/blogs/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "50 basic Linux commands",
+  "author": "Ritik Pal",
+  "url": "https:\/\/dev.to\/just_ritik\/50-basic-linux-commands-3af6?ref=dailydev",
+  "likes": 100
+}
